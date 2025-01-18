@@ -4,7 +4,7 @@ from datetime import date
 
 # Создаем переменные
 
-created_date = date.today()
+created_date = date(2025, 1, 19)
 issue_date = date(2025, 1, 21)
 
 # Выводим переменные в лаконичном формате

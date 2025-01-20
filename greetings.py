@@ -8,7 +8,7 @@ username = 'Аня Хамаганова'
 title = 'Заметка'
 content = 'Тестовая заметка'
 status = 'new'
-created_date = date.today()
+created_date = date(2025, 1, 19)
 issue_date = date(2025, 1, 21)
 
 # Выводим переменные

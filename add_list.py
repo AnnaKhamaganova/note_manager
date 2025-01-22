@@ -1,6 +1,6 @@
 # Импортируем datetime для работы с датами
 
-import datetime as DT
+from datetime import datetime
 
 # Просим пользователя ввести данные
 
@@ -19,8 +19,8 @@ titles = [title1, title2, title3]
 
 # Переводим полученные даты из строк в даты
 
-created_date = DT.datetime.strptime(temp_created_date, '%d-%m-%Y').date()
-issue_date = DT.datetime.strptime(temp_issue_date, '%d-%m-%Y').date()
+created_date = datetime.strptime(temp_created_date, '%d-%m-%Y')
+issue_date = datetime.strptime(temp_issue_date, '%d-%m-%Y')
 
 # Выводим данные
 
